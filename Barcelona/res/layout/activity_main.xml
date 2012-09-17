@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000">
+<TextView 
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="40dp"
+    android:text="Barcelona"
+    android:textColor="@color/text_color"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dp"
+    ></TextView>
+<Button
+    android:layout_width="200dp"  
+    android:layout_height="100dp"  
+    android:background="@drawable/pg2"  
+    android:id="@+id/PgButton"
+    android:text="Parc Guell"
+    android:textSize="30dp"
+    android:textColor="@color/text_color"
+    android:textStyle="bold"
+    android:layout_gravity="center" 
+    android:layout_marginBottom="20dp"   
+    
+        ></Button> 
+<Button
+    android:layout_width="200dp"  
+    android:layout_height="100dp"  
+    android:background="@drawable/sg5"  
+    android:id="@+id/SgButton"
+    android:text="Sagrada Familia"  
+    android:textSize="30dp"
+    android:textColor="@color/text_color"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dp"></Button>
+<Button
+    android:layout_width="200dp"  
+    android:layout_height="100dp"  
+    android:background="@drawable/streetscenes5"  
+    android:id="@+id/StreetScenesButton"
+    android:text="Street Scenes"  
+    android:textSize="30dp"
+    android:textColor="@color/text_color"
+    android:textStyle="bold"
+    android:layout_gravity="center"></Button>
+     
+</LinearLayout>
